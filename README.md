@@ -1,3 +1,12 @@
+Hey there fellow student of R!
+
+I hope it is all right with you that I included those extra functions:
+check_matrix() and check_cache_matrix(). I thought my troubleshooting would go a little easier if I had something yell at me everytime I tried to feed a matrix to cacheSolve(). I was hoping to include a little warning to detect singular matrices, but that was beyond my reasoning.
+
+Happy learning! Good luck with the rest of the course!
+
+
+
 ### Introduction
 
 This second programming assignment will require you to write an R
