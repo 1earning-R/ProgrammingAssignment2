@@ -46,10 +46,11 @@ cacheSolve <- function(x, ...) {
 ## Attempts to coerce object into matrix
 ## Does not check if the matrix is singular
 check_matrix <- function(m){
-        if(!is.matrix(m) | dim(m)[1] != dim(m)[2]){
-                warning("INPUT IS NOT A SQUARE MATRIX")
+        if(!is.matrix(m)){
+                warning("INPUT IS NOT A MATRIX")
                 m <- as.matrix(m)
         }
+        if(dim(m)[1] != dim(m)[2]){warning("MATRIX IS NOT SQUARE")}
         m
 }
 
